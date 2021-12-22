@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 banner-inner-div">
+        <div id="banner-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item" *ngFor="let pic of topBannerSlider; let index = index"
+                    [class.active]="index == 0">
+                    <img class="card-img-top" src={{pic.ImgLink?.Url}} alt="Top Banner Slider">
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev arr" href="#banner-carousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left fa fa-angle-left fa-2x"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next arr" href="#banner-carousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right fa fa-angle-right fa-2x"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>

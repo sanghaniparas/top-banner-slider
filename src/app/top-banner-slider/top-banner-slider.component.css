@@ -1,0 +1,90 @@
+.arr{
+    height: 84px;
+    margin-top: 186px;
+}
+.fa-angle-left:before {
+    content: "\f104";
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+}
+.fa-angle-right:before {
+    content: "\f105";
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+}
+span.fa.fa-birthday-cake {
+    padding-right: 5px;
+}
+.card-img-top{
+    height: 100%;
+    width: 100%;
+}
+.banner-inner-div {
+    padding-left: 10px !important;
+    padding-right: 20px !important;
+    height: 430px;
+}
+#banner-carousel .carousel-item {
+    height: 470px;
+    color: #fff;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+#banner-carousel .carousel-control .fa-angle-left {
+    left: 10px;
+    background: 0 0;
+}
+#banner-carousel .carousel-control .fa-angle-right {
+    right: 10px;
+    background: 0 0;
+}
+#banner-carousel .carousel-control i {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    line-height: 58px;
+    width: 60px;
+    height: 60px;
+    font-size: 36px;
+    border-radius: 0;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#banner-carousel .carousel-control:hover span {
+    background: 0 0;
+    color: #fff;
+}
+#banner-carousel .carousel-control {
+    opacity: 1;
+}
+
+#banner-carousel .carousel-control span,
+#banner-carousel .carousel-control:hover span {
+    background: 0 0;
+    color: #fff;
+}
+.carousel-control {
+    width: 10%;
+}
+.carousel-inner,
+.carousel-item {
+    background-repeat: no-repeat;
+}
+
+#banner-carousel {
+    height: 470px;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+@media only screen and (max-width: 430px) {
+    .banner-inner-div {
+        padding: 5px !important;
+    }
+    #banner-carousel,
+    .carousel .slide {
+        height: 400px !important;
+    }
+}
